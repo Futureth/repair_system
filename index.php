@@ -1,7 +1,7 @@
 <?php
     session_start();
     include('php/conn.php');
-    $job_sql = "SELECT * FROM table_job";
+    $job_sql = "SELECT * FROM table_job ORDER BY JobID DESC";
     $job_query = mysqli_query($conn,$job_sql);
 
     if(isset($_SESSION['AdminID'])){
