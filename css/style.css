@@ -15,5 +15,44 @@ body{
     background: #00ADB5 !important;
 }
 
-.login {
-} 
+.welcome-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome {
+    display: flex;
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 7px 1px rgba(0, 0, 0, 0.37) ;
+}
+.wel {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center !important;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.in-wel{
+    width: 100%;
+}
+
+@media only screen and (max-width:1000px) {
+    .welcome {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .wel{
+        width: 100%;
+    }
+    .wel img{
+        width: 75%;
+        margin: auto;
+    }
+}

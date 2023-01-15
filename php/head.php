@@ -11,3 +11,9 @@
 
 <link rel="stylesheet" href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
 <script src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+
+
+    <meta name="description" content="ข่าวสารแจ้งซ่อมของแผนก Maintenance บริษัทอาซาฮิ เทค ไทยแลนด์">
+    <meta property="og:locale" content="th_TH" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ระบบแจ้งซ่อม บริษัทอาซาฮิ เทค ไทยแลนด์" />

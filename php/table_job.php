@@ -1,4 +1,4 @@
-<table class="table" id="myTable">
+<table class="table table-striped table-hover" id="myTable">
     <thead class="bg-dark text-light">
         <tr>
             <th>ลำดับ</th>

@@ -2,6 +2,10 @@
     session_start();
     include('php/conn.php');
 
+    if(isset($_SESSION['AdminID'])){
+        header('location:admin_page.php');
+    }
+
     if(isset($_POST['Admin_name'])){
         $Admin_name = mysqli_real_escape_string($conn,$_POST['Admin_name']);
         $Admin_password = mysqli_real_escape_string($conn,$_POST['Admin_password']);
